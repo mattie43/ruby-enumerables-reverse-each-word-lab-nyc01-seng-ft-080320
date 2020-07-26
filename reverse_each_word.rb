@@ -3,4 +3,7 @@ def reverse_each_word(str)
   newarr = []
   arr.each { |ele| newarr << ele.reverse }
   newarr.join(" ")
+  
+  arr.collect { |ele| ele.reverse }
+  arr.join(" ")
 end
