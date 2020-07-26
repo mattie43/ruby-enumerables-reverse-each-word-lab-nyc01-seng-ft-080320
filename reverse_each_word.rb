@@ -5,6 +5,5 @@ def reverse_each_word(str)
   #newarr.join(" ")
   
   arr.collect { |ele| ele.reverse }
-  p arr
   arr.join(" ")
 end
